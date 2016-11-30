@@ -44,10 +44,12 @@
     <Compile Include="MainGame.cs" />
     <Compile Include="GameEntity.cs" />
     <Compile Include="InvisibleGameEntity.cs" />
+    <Compile Include="Map.cs" />
     <Compile Include="MouseHelper.cs" />
     <Compile Include="MyTexture.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScrollingMap.cs" />
     <Compile Include="VisibleGameEntity.cs" />
   </ItemGroup>
   <ItemGroup>

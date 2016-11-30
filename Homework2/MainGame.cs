@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 
 namespace Homework2
 {
@@ -12,12 +13,17 @@ namespace Homework2
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        List<VisibleGameEntity> entities;
+
         public MainGame()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
             Global.Content = this.Content;
             this.IsMouseVisible = true;
+
+            entities = new List<VisibleGameEntity>();
         }
 
         /// <summary>
