@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2", "Homework2\Homework2.csproj", "{EEB335B2-6E9B-4D0A-BCAC-70DCE6C5D735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB335B2-6E9B-4D0A-BCAC-70DCE6C5D735}.Debug|x86.ActiveCfg = Debug|x86
+		{EEB335B2-6E9B-4D0A-BCAC-70DCE6C5D735}.Debug|x86.Build.0 = Debug|x86
+		{EEB335B2-6E9B-4D0A-BCAC-70DCE6C5D735}.Release|x86.ActiveCfg = Release|x86
+		{EEB335B2-6E9B-4D0A-BCAC-70DCE6C5D735}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
