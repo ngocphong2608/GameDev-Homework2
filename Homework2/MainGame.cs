@@ -15,12 +15,13 @@ namespace Homework2
 
         List<VisibleGameEntity> entities;
 
-        Vector2 fromScreenPos, toScreenPos;
         bool bDrag = false;
 
         public MainGame()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferHeight = 600;
+            graphics.PreferredBackBufferWidth = 800;
             Content.RootDirectory = "Content";
 
             Global.Content = this.Content;
@@ -102,7 +103,6 @@ namespace Homework2
                 {
                     diff = Global.MouseHelper.GetMousePositionDifference();
                     Global.Camera.Translate(diff);
-
                 }
             }
             else
