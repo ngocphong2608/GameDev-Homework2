@@ -15,6 +15,9 @@ namespace Homework2
 
         List<VisibleGameEntity> entities;
 
+        Vector2 fromScreenPos, toScreenPos;
+        bool bDrag = false;
+
         public MainGame()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -76,10 +79,67 @@ namespace Homework2
             Global.KeyboardHelper.Update(gameTime);
             Global.MouseHelper.Update(gameTime);
 
+            Vector2 diff;
+            if (Global.MouseHelper.IsBeginToClickLeftButton())
+            {
+                bDrag = true;
+                bFloat = false;
+            }
+            else if (Global.MouseHelper.IsEndToClickLeftButton())
+            {
+                if (bDrag)
+                {
+                    bDrag = false;
+                    diff = Global.MouseHelper.GetMousePositionDifference();
+                    Global.Camera.Translate(diff);
+                    backupDiff = diff;
+                    BeginToFloat();
+                }
+            }
+            else if (Global.MouseHelper.IsLeftButtonPressed())
+            {
+                if (bDrag)
+                {
+                    diff = Global.MouseHelper.GetMousePositionDifference();
+                    Global.Camera.Translate(diff);
+
+                }
+            }
+            else
+            {
+                if (bFloat)
+                {
+                    diff = V0;
+                    Global.Camera.Translate(diff);
+                    V0 += A;
+                    if (IsLowerThanEpsilon(V0))
+                        bFloat = false;
+                }
+            }
+
             for (int i = 0; i < entities.Count; i++)
                 entities[i].Update(gameTime);
 
             base.Update(gameTime);
+        }
+
+        float epsilon = 0.01f;
+        private bool IsLowerThanEpsilon(Vector2 v0)
+        {
+            return v0.Length() <= epsilon;
+        }
+
+        Vector2 V0, A;
+        bool bFloat = false;
+        float K1 = 2, K2 = 0.01f;
+        Vector2 backupDiff;
+
+        private void BeginToFloat()
+        {
+            V0 = K1 * backupDiff;//Global.MouseHelper.GetMousePositionDifference();
+            A = -K2 * V0;
+            bFloat = true;
+
         }
 
         /// <summary>
