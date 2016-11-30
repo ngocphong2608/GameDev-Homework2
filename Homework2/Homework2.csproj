@@ -50,6 +50,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScrollingMap.cs" />
+    <Compile Include="TilingMap.cs" />
     <Compile Include="VisibleGameEntity.cs" />
   </ItemGroup>
   <ItemGroup>

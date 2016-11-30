@@ -49,6 +49,7 @@ namespace Homework2
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            entities.Add(new TilingMap("HeightMap", 0, 0, 64, 64));
         }
 
         /// <summary>
@@ -71,6 +72,12 @@ namespace Homework2
                 Exit();
 
             // TODO: Add your update logic here
+            Global.Camera.Update(gameTime);
+            Global.KeyboardHelper.Update(gameTime);
+            Global.MouseHelper.Update(gameTime);
+
+            for (int i = 0; i < entities.Count; i++)
+                entities[i].Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -84,7 +91,10 @@ namespace Homework2
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend, null, null, null, null, Global.Camera.WVP);
+            for (int i = 0; i < entities.Count; i++)
+                entities[i].Draw(gameTime, spriteBatch);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
