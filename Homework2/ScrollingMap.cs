@@ -24,7 +24,6 @@ namespace Homework2
         public ScrollingMap(string strResourceName, int nRows, int nCols, int Left, int Top, int FragmentWidth, int FragmentHeight)
         {
             // TODO: Complete member initialization
-            
             this.nRows = nRows;
             this.nCols = nCols;
             this.Left = Left;
