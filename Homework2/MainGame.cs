@@ -54,8 +54,6 @@ namespace Homework2
 
             // TODO: use this.Content to load your game content here
             entities.Add(new TilingMap("HeightMap", 0, 0, 64, 64));
-            Global.Camera.ScaleX *= 0.25f;
-            Global.Camera.ScaleY *= 0.25f;
         }
 
         /// <summary>
@@ -81,6 +79,18 @@ namespace Homework2
             Global.Camera.Update(gameTime);
             Global.KeyboardHelper.Update(gameTime);
             Global.MouseHelper.Update(gameTime);
+
+            if (Keyboard.GetState().IsKeyUp(Keys.Z))
+            {
+                Global.Camera.ScaleX *= 0.8f;
+                Global.Camera.ScaleY *= 0.8f;
+            }
+
+            if (Keyboard.GetState().IsKeyUp(Keys.X))
+            {
+                Global.Camera.ScaleX /= 0.8f;
+                Global.Camera.ScaleY /= 0.8f;
+            }
 
             Vector2 diff;
             if (Global.MouseHelper.IsBeginToClickLeftButton())

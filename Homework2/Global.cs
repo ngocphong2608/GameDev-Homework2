@@ -9,6 +9,7 @@ namespace Homework2
 {
     class Global
     {
+        static public int HeightMap = 171;
         static public int Width = 800;
         static public int Height = 600;
         static public Camera2D Camera = new Camera2D();
