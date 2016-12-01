@@ -20,8 +20,8 @@ namespace Homework2
         public MainGame()
         {
             graphics = new GraphicsDeviceManager(this);
-            graphics.PreferredBackBufferHeight = 600;
-            graphics.PreferredBackBufferWidth = 800;
+            graphics.PreferredBackBufferHeight = Global.Height;
+            graphics.PreferredBackBufferWidth = Global.Width;
             Content.RootDirectory = "Content";
 
             Global.Content = this.Content;
@@ -54,6 +54,8 @@ namespace Homework2
 
             // TODO: use this.Content to load your game content here
             entities.Add(new TilingMap("HeightMap", 0, 0, 64, 64));
+            Global.Camera.ScaleX *= 0.25f;
+            Global.Camera.ScaleY *= 0.25f;
         }
 
         /// <summary>

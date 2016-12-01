@@ -5,9 +5,9 @@
   <Config />
   <SourceFiles>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/Grass.jpg</File>
-    <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/HeightMap.png</File>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/Highland.jpg</File>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/Snow.jpg</File>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/Water.jpg</File>
+    <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/HeightMap.png</File>
   </SourceFiles>
 </SourceFileCollection>

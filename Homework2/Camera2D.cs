@@ -84,22 +84,22 @@ namespace Homework2
             TransX += vector2.X;
             TransY += vector2.Y;
             
+            // Limiting camera's transformation
             if (TransX >= 0)
             {
                 TransX = 0;
-            } else if (TransX < -64 * 64 + 800)
+            } else if (TransX < -64 * 64 * ScaleX + Global.Width)
             {
-                TransX = -64 * 64 + 800;
+                TransX = -64 * 64 * ScaleX + Global.Width;
             }
             if (TransY >= 0)
             {
                 TransY = 0;
             }
-            if (TransY < -64*64 + 600)
+            if (TransY < -64*64 * ScaleY + Global.Height)
             {
-                TransY = -64 * 64 + 600;
+                TransY = -64 * 64 * ScaleY + Global.Height;
             }
-
         }
     }
 }
