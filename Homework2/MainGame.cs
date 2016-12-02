@@ -82,14 +82,14 @@ namespace Homework2
 
             if (Keyboard.GetState().IsKeyUp(Keys.Z))
             {
-                Global.Camera.ScaleX *= 0.8f;
-                Global.Camera.ScaleY *= 0.8f;
+                Global.Camera.ScaleX *= 0.9f;
+                Global.Camera.ScaleY *= 0.9f;
             }
 
             if (Keyboard.GetState().IsKeyUp(Keys.X))
             {
-                Global.Camera.ScaleX /= 0.8f;
-                Global.Camera.ScaleY /= 0.8f;
+                Global.Camera.ScaleX /= 0.9f;
+                Global.Camera.ScaleY /= 0.9f;
             }
 
             Vector2 diff;

@@ -49,6 +49,6 @@ D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\SharpDX.Direct
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Grass.xnb
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\HeightMap.xnb
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Highland.xnb
-D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Snow.xnb
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Water.xnb
 D:\Study\Game-Homeworks\Homework2\Homework2\obj\x86\Debug\Homework2.csprojResolveAssemblyReference.cache
+D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Snow.xnb
