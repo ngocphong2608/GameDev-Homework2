@@ -54,6 +54,7 @@ namespace Homework2
 
             // TODO: use this.Content to load your game content here
             entities.Add(new TilingMap("HeightMap", 0, 0, 64, 64));
+            entities.Add(new Ship());
         }
 
         /// <summary>

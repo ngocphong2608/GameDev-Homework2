@@ -37,6 +37,10 @@ namespace Homework2
         public void LoadContent(string name)
         {
             texture = Global.Content.Load<Texture2D>(name);
+            if (width == 0)
+                width = texture.Width;
+            if (height == 0)
+                height = texture.Height;
         }
 
         public override void Draw(GameTime gameTime, object helper)
