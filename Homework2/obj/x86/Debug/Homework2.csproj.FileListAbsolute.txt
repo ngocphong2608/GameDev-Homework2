@@ -57,3 +57,4 @@ D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\ShipDo
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\ShipLeft.xnb
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\ShipRight.xnb
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\ShipUp.xnb
+D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Red.xnb

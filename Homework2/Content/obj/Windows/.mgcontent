@@ -4,7 +4,6 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/HeightMap.png</File>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/Grass.jpg</File>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/Water.png</File>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/HighLand.jpg</File>
@@ -14,5 +13,7 @@
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/ShipRight.png</File>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/ShipUp.png</File>
     <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/ShipDown.png</File>
+    <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/Red.png</File>
+    <File>D:/Study/Game-Homeworks/Homework2/Homework2/Content/HeightMap.png</File>
   </SourceFiles>
 </SourceFileCollection>

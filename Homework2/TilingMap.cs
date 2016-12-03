@@ -56,6 +56,9 @@ namespace Homework2
                 strFilename = "Grass";
             else if (h < 192)
                 strFilename = "Highland";
+            else if (h < 210)
+                strFilename = "Red";
+            // 193 -> 210 special
 
             return strFilename;
 
