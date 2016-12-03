@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/Study/Game-Homeworks/Homework2/Homework2/Content/Ship.png</SourceFile>
-  <SourceTime>2016-12-02T23:04:25.2780854+07:00</SourceTime>
-  <DestFile>D:/Study/Game-Homeworks/Homework2/Homework2/Content/bin/Windows/Ship.xnb</DestFile>
-  <DestTime>2016-12-03T19:26:15.3419104+07:00</DestTime>
+  <SourceFile>D:/Study/Game-Homeworks/Homework2/Homework2/Content/ShipLeft.png</SourceFile>
+  <SourceTime>2016-12-02T23:03:30.4993038+07:00</SourceTime>
+  <DestFile>D:/Study/Game-Homeworks/Homework2/Homework2/Content/bin/Windows/ShipLeft.xnb</DestFile>
+  <DestTime>2016-12-03T19:29:06.316725+07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T13:36:08+07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

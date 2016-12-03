@@ -63,5 +63,21 @@ namespace Homework2
         //    else
         //        return false;
         //}
+
+        public int GetWidth()
+        {
+            return width;
+        }
+
+        public int GetHeight()
+        {
+            return height;
+        }
+
+        public void SetPositionBaseOnPivot(int x, int y)
+        {
+            this.left = x - width / 2;
+            this.top = y - height / 2;
+        }
     }
 }

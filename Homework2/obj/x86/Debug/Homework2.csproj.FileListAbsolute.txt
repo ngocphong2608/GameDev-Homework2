@@ -53,3 +53,7 @@ D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Water.
 D:\Study\Game-Homeworks\Homework2\Homework2\obj\x86\Debug\Homework2.csprojResolveAssemblyReference.cache
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Snow.xnb
 D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\Ship.xnb
+D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\ShipDown.xnb
+D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\ShipLeft.xnb
+D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\ShipRight.xnb
+D:\Study\Game-Homeworks\Homework2\Homework2\bin\Windows\x86\Debug\Content\ShipUp.xnb
